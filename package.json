@@ -1,0 +1,33 @@
+{
+  "name": "knockauth",
+  "version": "0.0.1",
+  "description": "Uses knocks as pre-authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beep",
+    "boop",
+    "knock",
+    "knocking",
+    "auth",
+    "authentication"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "typescript": "^3.8.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard-with-typescript": "^11.0.1",
+    "eslint-plugin-chai-expect": "^2.1.0",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-import": "^2.20.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "ts-node": "^8.5.4",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "author": "Ong Teck Wu",
+  "license": "ISC"
+}

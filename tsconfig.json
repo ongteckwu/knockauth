@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "lib" : ["es2018", "es2020.string"],
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2020",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "paths": {
+      "Main/*": ["src/*"]
+    }
+  },
+  "include": [
+      "src",
+      "test"
+  ],
+  "exclude": ["node_modules", "**/__tests__/*"],
+}
