@@ -1,9 +1,9 @@
 # knockauth
-Uses knocks as authentication on top of your usual authentication. If a hacker gains access to a Authorization Bearer Token, the hacker will still get denied access. In order to get access, the hacker has to send requests N times with the same token, with a minimum seconds gap of, say, 2 seconds, and a maximum seconds gap of, say 10, seconds, before access will be granted.
+Uses `knocks` as authentication on top of your usual authentication. If a hacker gains access to a Authorization Bearer Token, the hacker will still get denied access. In order to get access, the hacker has to send requests `N` times with the same token, with a minimum duration gap of, say, `2000 milliseconds`, and a maximum duration gap of, say, `10000 milliseconds`, before access will be granted.
 
-To allow your apps to access, simply just knock accordingly.
+To allow your apps to access, simply just `knock` accordingly.
 
-### Install (Not implemented yet)
+### Installation (Not implemented yet)
 
 `npm install knockauth` 
 
